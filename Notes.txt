@@ -1,0 +1,48 @@
+Pbs:
+----
+
+- Synchronization of the two boards:
+* Don t care and communicate asyncronously 
+* Use IR (but crowding and reliability pbs)
+
+- Reliability of IR for datastreaming:
+* Send few discrete commands
+* work hard on IR protocol (see also crowding)
+
+- IR crowding: 
+* If both boards send IR signals, possible ambiguity at the receiver side
+* If a board both send and receive, how to distinguis self and non
+self message.  
+
+- Define good features from raw data:
+* AAAA
+* "good" filters and tresholds
+* geometric models
+
+Possible use:
+-------------
+
+- IR command:
+* define various light patterns
+* trigger patterns associated to IR remote commands
+
+- Local rate control:
+* get the accel amplitude averaged over axes (AAAA)
+* define light patterns based on AAAA range or PWM based on AAAA
+
+Environment control:
+--------------------  
+
+- Control of music/sound (engine noise modulated by rotation speed)
+- Control lightning
+- Capture tragectories
+
+photodiode
+
+
+Things to do:
+-------------
+
+Define protocol IR
+Use flextimer2
+calibrate accel
