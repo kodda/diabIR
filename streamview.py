@@ -2,7 +2,7 @@ import numpy as np
 import serial
 from galry import *
 
-ser = serial.Serial('/dev/ttyUSB0', 9600)
+ser = serial.Serial('/dev/ttyUSB2', 9600)
 nsamples = 100
 nplots = 1
 

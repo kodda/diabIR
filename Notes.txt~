@@ -43,7 +43,7 @@ photodiode
 On IR protocols
 ---------------
 
-- Digital protocol based on remote codes should be tested to assess reliability speed trade offs. SONY protocol is used to control servo in the IRlib example. Using Gray code may be beneficial.
+- Digital protocol based on remote codes should be tested to assess reliability speed trade offs. SONY protocol is used to control servo in the IRlib example.
  
 - Analog protocol is never used, is there good reason?  
 
